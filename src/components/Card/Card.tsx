@@ -19,8 +19,8 @@ const Card: React.FC<CardProps> = ({ image, name, status, species, gender, origi
     : "bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform hover:scale-105";
 
   const imageClasses = isModal
-    ? "w-full h-64 object-cover"
-    : "w-full h-48 object-cover";
+    ? "w-full h-64 object-fill"
+    : "w-full h-48 object-fill";
 
   return (
     <div
