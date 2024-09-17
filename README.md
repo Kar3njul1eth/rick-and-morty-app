@@ -40,4 +40,4 @@ To run this project locally, you need the following requirements:
 - Set the exact Node.js version through nvm, using `nvm use`
 - Run project with `npm run dev`
 
-> If you prefer to skip these steps, you can also view the deployed version of the project on Vercel at the following [link](https:).
+> If you prefer to skip these steps, you can also view the deployed version of the project on Vercel at the following [link](https://rick-and-morty-app-tau-five.vercel.app/).
