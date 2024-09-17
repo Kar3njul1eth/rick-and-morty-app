@@ -26,6 +26,13 @@ const Filter: React.FC<FilterProps> = ({ onFilterChange }) => {
     });
   }, [status, gender, species, onFilterChange]);
 
+  const clearFilters = () => {
+    setStatus('');
+    setGender('');
+    setSpecies('');
+    onFilterChange({ status: '', gender: '', species: '' });
+  };
+
   return (
     <div className="mb-8">
       <h2 className="text-2xl font-bold mb-4">Filters</h2>
@@ -72,6 +79,14 @@ const Filter: React.FC<FilterProps> = ({ onFilterChange }) => {
             ))}
           </select>
         </div>
+      </div>
+      <div className="mt-4">
+        <button
+          className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors"
+          onClick={clearFilters}
+        >
+          Clean filters
+        </button>
       </div>
     </div>
   );
