@@ -30,7 +30,7 @@ This app was built using React and allows users to explore characters from the R
     ├─--- __tests__        # Tests for main components
     ├── hooks              # Hooks necesarys
     ├─- pages              # Main pages: Characters, Episodes, Locations
-    └─App                  # api services and axios instances
+    └─App                  # Main component
 
 ## Project setup
 
